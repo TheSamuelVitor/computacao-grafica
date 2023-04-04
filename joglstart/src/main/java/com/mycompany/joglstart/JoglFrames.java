@@ -30,6 +30,10 @@ public class JoglFrames implements GLEventListener {
         // primeiro valor = posicao vertical
         // segundo valor = posicao horizontal
 
+        // - - - - - - -
+        // - QUADRADO -
+        // - - - - - - -
+
         // linha vertical esquerda
         gl.glVertex2d(0, 0);
         gl.glVertex2d(0, 0.4);
@@ -41,10 +45,22 @@ public class JoglFrames implements GLEventListener {
         // linha horizontal superior
         gl.glVertex2d(0, 0.4);
         gl.glVertex2d(0.4, 0.4);
-        
+
         // linha horizontal inferior
         gl.glVertex2d(0, 0);
         gl.glVertex2d(0.4, 0);
+
+        // - - - - - - -
+        // - TRIANGULO -
+        // - - - - - - -
+
+        // diagonal esquerda
+        gl.glVertex2d(0, 0.4);
+        gl.glVertex2d(0.2, 0.6);
+
+        // diagonal direita
+        gl.glVertex2d(0.4, 0.4);
+        gl.glVertex2d(0.2, 0.6);
 
         gl.glEnd();
     }
