@@ -9,4 +9,3 @@
     
 - Java Open Graphic Library: 
   - Biblioteca JAVA que permite criar estruturas OpenGL;
-  
